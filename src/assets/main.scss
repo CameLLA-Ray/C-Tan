@@ -1,0 +1,19 @@
+/* ./src/assets/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  z-index: 0;
+}
+
+:root {
+  --el-color-primary: green;
+}
+
+#app {
+  height: 100vh;
+}
